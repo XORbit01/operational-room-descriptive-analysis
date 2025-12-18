@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from utils.charts import bar_chart, histogram
+from dashboard.utils.charts import bar_chart, histogram
 
 st.title("Medical History Analysis")
 

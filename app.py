@@ -3,8 +3,8 @@ Main Streamlit Dashboard Application
 """
 
 import streamlit as st
-from utils.data_loader import load_data, apply_filters, get_age_groups
-from utils.styles import apply_custom_css
+from dashboard.utils.data_loader import load_data, apply_filters, get_age_groups
+from dashboard.utils.styles import apply_custom_css
 
 # Page configuration
 st.set_page_config(

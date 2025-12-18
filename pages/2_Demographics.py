@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from utils.charts import histogram, box_plot, scatter_plot, bar_chart, pie_chart
+from dashboard.utils.charts import histogram, box_plot, scatter_plot, bar_chart, pie_chart
 
 st.title("Demographics Analysis")
 
