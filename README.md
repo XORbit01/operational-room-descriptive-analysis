@@ -6,7 +6,9 @@ This project implements a comprehensive data cleaning and preprocessing pipeline
 
 <div align="center">
   <h3>📊 Dashboard Overview</h3>
-  <img src="overview/overview.png" alt="Dashboard Overview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  
+  ![Dashboard Overview](overview/overview.png)
+  
   <p><em>Interactive Streamlit Dashboard - Comprehensive Medical Data Analysis Interface</em></p>
 </div>
 
