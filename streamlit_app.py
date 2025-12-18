@@ -7,7 +7,12 @@ import sys
 from pathlib import Path
 
 # Add dashboard directory to path
-sys.path.insert(0, str(Path(__file__).parent / 'dashboard'))
+dashboard_path = Path(__file__).parent / 'dashboard'
+sys.path.insert(0, str(dashboard_path))
+
+# Change to dashboard directory for imports
+import os
+os.chdir(dashboard_path)
 
 # Import and run the main app
 from app import *
