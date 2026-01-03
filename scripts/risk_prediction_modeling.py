@@ -618,3 +618,5 @@ print(f"Best model saved to: models/")
 print(f"\nTo use the model for predictions:")
 print(f"  - Load model: joblib.load('models/best_risk_model.pkl')")
 print(f"  - Get risk percentage: probability * 100")
+
+
